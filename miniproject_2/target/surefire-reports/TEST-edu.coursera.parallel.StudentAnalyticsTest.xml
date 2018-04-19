@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.coursera.parallel.StudentAnalyticsTest" time="5.314" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/akshay/Downloads/miniproject_2"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/akshay/Downloads/miniproject_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/0x/y7g75qj95sg3f9y241l_bsjw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/akshay/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|0.0.0.0"/>
+    <property name="user.home" value="/Users/akshay"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="akshay"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|0.0.0.0"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|0.0.0.0"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testCountNumberOfFailedStudentsOlderThan20Perf" classname="edu.coursera.parallel.StudentAnalyticsTest" time="0.813">
+    <failure message="Expected parallel version to run at least 1.2x faster but speedup was 0.7556818181818182" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected parallel version to run at least 1.2x faster but speedup was 0.7556818181818182
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.parallel.StudentAnalyticsTest.testCountNumberOfFailedStudentsOlderThan20Perf(StudentAnalyticsTest.java:165)
+</failure>
+  </testcase>
+  <testcase name="testAverageAgeOfEnrolledStudents" classname="edu.coursera.parallel.StudentAnalyticsTest" time="0.53"/>
+  <testcase name="testAverageAgeOfEnrolledStudentsPerf" classname="edu.coursera.parallel.StudentAnalyticsTest" time="0.604"/>
+  <testcase name="testMostCommonFirstNameOfInactiveStudents" classname="edu.coursera.parallel.StudentAnalyticsTest" time="1.011"/>
+  <testcase name="testMostCommonFirstNameOfInactiveStudentsPerf" classname="edu.coursera.parallel.StudentAnalyticsTest" time="2.101"/>
+  <testcase name="testCountNumberOfFailedStudentsOlderThan20" classname="edu.coursera.parallel.StudentAnalyticsTest" time="0.255"/>
+</testsuite>
